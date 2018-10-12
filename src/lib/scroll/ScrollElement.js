@@ -75,7 +75,7 @@ class ScrollElement extends Component {
           const parentPosition = getParentPosition(e.currentTarget)
           const xPosition = e.clientX - parentPosition.x
 
-          this.props.onWheelZoom(10, xPosition, e.deltaY)
+          this.props.onWheelZoom(1, xPosition, e.deltaY)
         }
       }
     }
